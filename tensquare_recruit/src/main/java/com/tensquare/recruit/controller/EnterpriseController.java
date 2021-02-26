@@ -18,7 +18,7 @@ import java.util.List;
 @CrossOrigin
 @RequestMapping("/enterprise")
 @Api(tags = "Enterprise接口")
-public class EnterPriseController {
+public class EnterpriseController {
     @Autowired
     private EnterpriseService enterpriseService;
     @RequestMapping(value = "/search/hotlist",method = RequestMethod.GET)
