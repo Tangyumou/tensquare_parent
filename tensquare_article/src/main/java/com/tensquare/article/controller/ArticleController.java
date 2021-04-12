@@ -33,8 +33,6 @@ public class ArticleController {
 		articleService.updateState(articleId);
 		return new Result(true,StatusCode.OK,"审核成功");
 	}
-
-
 	/**
 	 * 审核文章
 	 * @param articleId
